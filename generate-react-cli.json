@@ -1,0 +1,28 @@
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": true,
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": true
+    },
+    "page": {
+      "path": "src/app",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    },
+    "layout": {
+      "path": "src/layout",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": true
+    }
+  }
+}
